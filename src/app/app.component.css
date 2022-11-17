@@ -1,0 +1,44 @@
+.inp {
+    outline:0;
+    width:500px;
+    padding:5px 5px 5px 10px;
+    border-radius:12px;
+    border:none
+}
+
+.bt {
+    display: flex;
+    align-items: center;
+    border:none;
+    background: none;
+}
+
+.ic {
+    font-size: 1.5rem;
+}
+
+.barraCategoria {
+    background-color: #5a189a;
+    display: flex;
+    justify-content: center;
+}
+
+.barraCategoria ul {
+    display: flex;
+    background-color:#5a189a;
+    margin: 0px;
+}
+
+.barraCategoria ul li{
+    list-style: none;
+    padding: 8px;
+    background-color:#5a189a;
+}
+
+.barraCategoria ul li a {
+    color: black;
+    cursor: pointer;
+    background-color:#5a189a;
+    text-decoration: none;
+    font-weight: bold;
+}

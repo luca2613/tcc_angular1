@@ -1,0 +1,9 @@
+<h1>Meus livros</h1>
+<div class="containerLivros ">
+    <div *ngFor="let l of livros" class='livro col-4 col-sm-4 col-md-4 col-lg-4'> 
+        <img src='../../assets/uploads/livro1.jpg' class='class-item-img' alt=''>
+        <div class='tituloLivro'>
+            <span>{{l.nm_livro}}</span>
+        </div>
+    </div>
+</div>
